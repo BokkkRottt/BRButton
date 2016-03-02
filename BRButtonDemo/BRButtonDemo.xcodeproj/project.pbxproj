@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F87C5191C85DC2100903055 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87C5181C85DC2100903055 /* AppDelegate.m */; };
+		2F87C51C1C85DC2100903055 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87C51B1C85DC2100903055 /* main.m */; };
+		2F87C51E1C85DC2100903055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F87C51D1C85DC2100903055 /* Assets.xcassets */; };
+		2F87C5211C85DC2100903055 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F87C51F1C85DC2100903055 /* MainMenu.xib */; };
+		2F87C52A1C85DCB700903055 /* BRButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87C5291C85DCB700903055 /* BRButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F87C5141C85DC2100903055 /* BRButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F87C5171C85DC2100903055 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F87C5181C85DC2100903055 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F87C51B1C85DC2100903055 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F87C51D1C85DC2100903055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F87C5201C85DC2100903055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2F87C5221C85DC2100903055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F87C5281C85DCB700903055 /* BRButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRButton.h; sourceTree = "<group>"; };
+		2F87C5291C85DCB700903055 /* BRButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F87C5111C85DC2100903055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F87C50B1C85DC2100903055 = {
+			isa = PBXGroup;
+			children = (
+				2F87C5161C85DC2100903055 /* BRButtonDemo */,
+				2F87C5151C85DC2100903055 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F87C5151C85DC2100903055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F87C5141C85DC2100903055 /* BRButtonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F87C5161C85DC2100903055 /* BRButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2F87C5171C85DC2100903055 /* AppDelegate.h */,
+				2F87C5181C85DC2100903055 /* AppDelegate.m */,
+				2F87C5281C85DCB700903055 /* BRButton.h */,
+				2F87C5291C85DCB700903055 /* BRButton.m */,
+				2F87C51D1C85DC2100903055 /* Assets.xcassets */,
+				2F87C51F1C85DC2100903055 /* MainMenu.xib */,
+				2F87C5221C85DC2100903055 /* Info.plist */,
+				2F87C51A1C85DC2100903055 /* Supporting Files */,
+			);
+			path = BRButtonDemo;
+			sourceTree = "<group>";
+		};
+		2F87C51A1C85DC2100903055 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F87C51B1C85DC2100903055 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F87C5131C85DC2100903055 /* BRButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F87C5251C85DC2100903055 /* Build configuration list for PBXNativeTarget "BRButtonDemo" */;
+			buildPhases = (
+				2F87C5101C85DC2100903055 /* Sources */,
+				2F87C5111C85DC2100903055 /* Frameworks */,
+				2F87C5121C85DC2100903055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRButtonDemo;
+			productName = BRButtonDemo;
+			productReference = 2F87C5141C85DC2100903055 /* BRButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F87C50C1C85DC2100903055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = BokkkRottt;
+				TargetAttributes = {
+					2F87C5131C85DC2100903055 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2F87C50F1C85DC2100903055 /* Build configuration list for PBXProject "BRButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F87C50B1C85DC2100903055;
+			productRefGroup = 2F87C5151C85DC2100903055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F87C5131C85DC2100903055 /* BRButtonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F87C5121C85DC2100903055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F87C51E1C85DC2100903055 /* Assets.xcassets in Resources */,
+				2F87C5211C85DC2100903055 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F87C5101C85DC2100903055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F87C52A1C85DCB700903055 /* BRButton.m in Sources */,
+				2F87C51C1C85DC2100903055 /* main.m in Sources */,
+				2F87C5191C85DC2100903055 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F87C51F1C85DC2100903055 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F87C5201C85DC2100903055 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F87C5231C85DC2100903055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2F87C5241C85DC2100903055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2F87C5261C85DC2100903055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BRButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bokkkrottt.BRButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F87C5271C85DC2100903055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BRButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bokkkrottt.BRButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F87C50F1C85DC2100903055 /* Build configuration list for PBXProject "BRButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F87C5231C85DC2100903055 /* Debug */,
+				2F87C5241C85DC2100903055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F87C5251C85DC2100903055 /* Build configuration list for PBXNativeTarget "BRButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F87C5261C85DC2100903055 /* Debug */,
+				2F87C5271C85DC2100903055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F87C50C1C85DC2100903055 /* Project object */;
+}
